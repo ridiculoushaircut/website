@@ -1,4 +1,39 @@
-baseURL = "http://example.org/"
+baseURL = "http://ridiculoushaircut.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ridiculous Haircut"
 theme = "hyde-hyde"
+
+[params]
+	description = "Apps that scratch an itch and look good on you."
+	authorimage = "/img/logo.png"
+
+	copyright = "Ridiculous Haircut, LLC"
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+
+	themeColor = "theme-base-rh"
+
+    # toc = "hugo"
+
+	[params.social]
+		twitter = "ridiculoushrct"
+		github = "ridiculoushaircut"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/"
+[[menu.main]]
+    name = "Apps"
+    identifier = "app"
+    weight = 200
+    url = "/apps/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
