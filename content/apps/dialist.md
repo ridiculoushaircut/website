@@ -2,7 +2,7 @@
 title: "Dialist"
 date: 2019-11-10T23:45:01-05:00
 description: "The missing speed dial for iPhone"
-link: https://github.com/htr3n/dera
+link: http://ridiculoushaircut.com
 screenshot: 'dialist_promo.jpeg'
 layout: 'portfolio'
 featured: true
